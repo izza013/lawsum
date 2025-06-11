@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: flask-full-project
+    name: lawsum
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn server:app
